@@ -17,7 +17,7 @@ if st.button(
     key="checkout-button",
     use_container_width=True,
 ):
-    #st.login("google")
+    # st.login("google")
     st.login("auth0")
 
 with st.expander("📝 Privacy & Data Security Disclaimer"):
